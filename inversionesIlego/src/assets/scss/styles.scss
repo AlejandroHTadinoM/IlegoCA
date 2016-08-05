@@ -1,0 +1,42 @@
+#section-banner{
+  background-image: url("/assets/img/banner-bg.jpg");
+  background-repeat: no-repeat;
+  height: 95vh;
+
+  .title{
+    @include absolute-center;
+    color: #FFF;
+    text-align: center;
+  }
+}
+
+#section-product{
+  position: relative;
+  img{
+    height: 540px;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+#section-service{
+  text-align: center;
+  .service{
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #service-serigrafia{
+    background-image: url("/assets/img/serigrafia.jpg");
+  }
+  #service-sublimacion{
+    background-image: url("/assets/img/sublimacion.jpg");
+  }
+  #service-bordado{
+    background-image: url("/assets/img/bordado.png");
+  }
+  #service-ploter{
+    background-image: url("/assets/img/ploter.jpg");
+  }
+}

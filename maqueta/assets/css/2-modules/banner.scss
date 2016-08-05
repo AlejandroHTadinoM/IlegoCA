@@ -1,0 +1,24 @@
+.banner{
+  background-image: url("/assets/img/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  .hero{
+    display: inline-block;
+    position: relative;
+    top: 20rem;
+    left: 40%;
+    text-align: center;
+    .logo{
+      background-image: url("/assets/img/logo.jpg");
+      height: 10rem;;
+      width: 20rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    h1{
+      text-transform: uppercase;
+      color: #FFF;
+    }
+  }
+}
